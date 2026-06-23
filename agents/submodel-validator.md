@@ -46,6 +46,7 @@ Especialista em **validação de conformidade** de submodelos AAS contra as espe
 - `aas-core3.0` (Python): validação programática do metamodelo
 - AASX Package Explorer: validação visual
 - `basyx.aas` SDK: validação via `model.check()`
+- **admin-shell-io** (https://github.com/admin-shell-io): schemas JSON/XML oficiais e exemplos de submodelos válidos para comparação/conformidade
 
 ---
 
@@ -102,4 +103,5 @@ Resultado: 2 erros, 1 aviso — artefato INVÁLIDO
 | Versão da spec | 1.0 |
 | Referência metamodelo | IDTA 01001 v3.1.2 |
 | Portal IDTA | https://industrialdigitaltwin.io/aas-specifications/index/home/index.html |
+| Repositório de referência | https://github.com/admin-shell-io |
 | Última revisão | Junho 2026 |

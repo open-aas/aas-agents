@@ -16,6 +16,7 @@ Chame o agente adequado para cada tarefa:
 - Sempre referenciar a versão da especificação IDTA ao citar uma norma
 - Portal oficial das specs: https://industrialdigitaltwin.io/aas-specifications/index/home/index.html
 - Release atual: IDTA 25-01
+- Repositórios de referência (schemas, exemplos, ferramentas): https://github.com/admin-shell-io
 
 ## Ativação por contexto
 

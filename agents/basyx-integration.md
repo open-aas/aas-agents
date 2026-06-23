@@ -108,4 +108,5 @@ volumes:
 | Versão da spec | 1.0 |
 | Referência BaSyx | v2.0.x |
 | Referência API | IDTA 01002 v3.1.2 |
+| Repositório de referência (schemas/exemplos) | https://github.com/admin-shell-io |
 | Última revisão | Junho 2026 |

@@ -87,6 +87,7 @@ Versões "in progress" existem para 01001, 01002, 01003-a, 01003-b, 01004 e 0100
 - **python-aas** (`basyx.aas` library)
 - **aas-core3.0** (validação de metamodelo)
 - AASX Server (Microsoft / IDTA reference)
+- **admin-shell-io** (https://github.com/admin-shell-io) — organização GitHub com schemas JSON/XML oficiais, exemplos de AAS/Submodelos e ferramentas de referência mantidas pela comunidade IDTA
 
 ---
 
@@ -176,6 +177,7 @@ Versões "in progress" existem para 01001, 01002, 01003-a, 01003-b, 01004 e 0100
 | Versão da spec | 1.0 |
 | Referência principal | IDTA 01001 v3.1.2 (metamodelo AAS, Part 1) |
 | Portal oficial | https://industrialdigitaltwin.io/aas-specifications/index/home/index.html |
+| Repositório de referência | https://github.com/admin-shell-io |
 | Release IDTA | 25-01 |
 | Última revisão | Junho 2026 |
 | Autor | — |
