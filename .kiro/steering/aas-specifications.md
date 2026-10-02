@@ -4,7 +4,7 @@ fileMatchPattern: ["docs/AAS Specifications/**", "faaster/faaster/aas_metamodel/
 ---
 # Especificações AAS (IDTA v3.x): referência normativa
 
-> **Pré-requisito (diretório de documentos):** os caminhos `docs/AAS Specifications/` e `docs/AAS Submodel Templates/` são relativos à raiz do workspace que usa este repositório (ex.: `Mestrado/docs/`). Para montá-los em outro workspace: `aas-agents/scripts/setup-aas-docs.sh <workspace>/docs` (veja o README do aas-agents). As referências ao **Faaster** (`faaster/...`) só valem quando o workspace contém esse projeto.
+> **Documentos de referência:** os caminhos `docs/AAS Specifications/` e `docs/AAS Submodel Templates/` existem **dentro do repositório aas-agents** (`aas-agents/docs/`, versionados) e também na raiz de workspaces que os montem (ex.: `Mestrado/docs/`). Use o que estiver na raiz do projeto aberto. Para atualizar: `scripts/setup-aas-docs.sh docs`. As referências ao **Faaster** (`faaster/...`) só valem quando o workspace contém esse projeto.
 
 Ficam em `docs/AAS Specifications/`. Comece pelo `README.md` (resumo por parte e impactos no Faaster) e pelo `constraints.md` (todas as constraints, com status na 3.2 e cobertura no Faaster).
 

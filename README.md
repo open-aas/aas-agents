@@ -96,17 +96,32 @@ aider --read agents/aas-specialist.md
 
 ## Documentos de referência (`docs/`)
 
-As skills, os subagents e o steering `aas-specifications`/`aas-submodel-templates` consultam os documentos oficiais **localmente**: o texto extraído dos PDFs, os índices e os JSON dos templates. Esses arquivos não são versionados aqui por causa de tamanho e licença. Para gerá-los na raiz do workspace que usa este repositório:
+As skills, os subagents e o steering `aas-specifications`/`aas-submodel-templates` consultam os documentos oficiais **localmente**. Eles estão versionados neste repositório em `docs/` (cerca de 300 MB):
+
+```
+docs/
+├── NOTICE.md                       ← atribuição e licença (CC BY 4.0, IDTA)
+├── AAS Specifications/             ← PDFs IDTA-01001…01005 + texto extraído (.txt),
+│                                     README.md (resumo por parte) e constraints.md
+└── AAS Submodel Templates/         ← 62 templates IDTA-02xxx
+    ├── pdf/                        ← PDFs do content hub
+    ├── repo/published/             ← cópia de admin-shell-io/submodel-templates (.aasx, .json, .pdf)
+    ├── CATALOG.md, README.md
+    └── faaster_compat.json         ← carga de cada template no Faaster
+```
+
+Para **atualizar** (novas versões das specs ou dos templates):
 
 ```bash
-# 1. coloque os PDFs IDTA-01001…01005 em <workspace>/docs/AAS Specifications/
-# 2. rode:
-./scripts/setup-aas-docs.sh <workspace>/docs
+# specs: coloque/substitua os PDFs IDTA-0100x em docs/AAS Specifications/
+./scripts/setup-aas-docs.sh docs
 ```
 
 O script:
 - extrai o texto dos PDFs das specs (`Part1_Metamodel.txt` … `Part5_AASX.txt`) e gera `constraints.md`;
-- clona ou atualiza `admin-shell-io/submodel-templates` (`published/`), baixa os PDFs do content hub e gera `CATALOG.md`.
+- atualiza `repo/published/` a partir de `admin-shell-io/submodel-templates`, baixa os PDFs novos do content hub e gera `CATALOG.md`.
+
+Para montar os documentos na raiz de outro workspace, rode o script apontando para `<workspace>/docs`.
 
 Requisitos: `git`, `curl`, `python3`, `pdftotext` (poppler-utils).
 

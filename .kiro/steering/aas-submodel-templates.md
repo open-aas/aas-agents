@@ -4,7 +4,7 @@ fileMatchPattern: ["docs/AAS Submodel Templates/**", "faaster/models/**", "faast
 ---
 # Submodel Templates IDTA
 
-> **Pré-requisito (diretório de documentos):** os caminhos `docs/AAS Specifications/` e `docs/AAS Submodel Templates/` são relativos à raiz do workspace que usa este repositório (ex.: `Mestrado/docs/`). Para montá-los em outro workspace: `aas-agents/scripts/setup-aas-docs.sh <workspace>/docs` (veja o README do aas-agents). As referências ao **Faaster** (`faaster/...`) só valem quando o workspace contém esse projeto.
+> **Documentos de referência:** os caminhos `docs/AAS Specifications/` e `docs/AAS Submodel Templates/` existem **dentro do repositório aas-agents** (`aas-agents/docs/`, versionados) e também na raiz de workspaces que os montem (ex.: `Mestrado/docs/`). Use o que estiver na raiz do projeto aberto. Para atualizar: `scripts/setup-aas-docs.sh docs`. As referências ao **Faaster** (`faaster/...`) só valem quando o workspace contém esse projeto.
 
 Os templates ficam em `docs/AAS Submodel Templates/`. Comece pelo `README.md` (estrutura, templates relevantes e compatibilidade com o Faaster) e pelo `CATALOG.md` (62 templates com versões e semanticId).
 

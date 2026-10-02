@@ -50,9 +50,15 @@ echo "🔄 Submodel Templates em: $SMT"
 if [ -d "$SMT/repo/.git" ]; then
   git -C "$SMT/repo" pull -q --depth 1
 else
+  # Sem .git (ex.: cópia versionada em aas-agents/docs): clona num diretório
+  # temporário e sincroniza só os arquivos, sem aninhar outro repositório git.
+  TMP="$(mktemp -d)"
   git clone -q --depth 1 --filter=blob:none --sparse \
-    https://github.com/admin-shell-io/submodel-templates.git "$SMT/repo"
-  git -C "$SMT/repo" sparse-checkout set published
+    https://github.com/admin-shell-io/submodel-templates.git "$TMP/repo"
+  git -C "$TMP/repo" sparse-checkout set published
+  mkdir -p "$SMT/repo"
+  rsync -a --delete --exclude='.git' "$TMP/repo/" "$SMT/repo/"
+  rm -rf "$TMP"
 fi
 python3 "$SCRIPTS/aas_docs.py" catalog "$SMT"
 
