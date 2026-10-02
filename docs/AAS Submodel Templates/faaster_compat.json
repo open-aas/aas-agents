@@ -1,0 +1,355 @@
+{
+ "ok": [
+  "Artificial Intelligence Dataset/1/0/1/IDTA 02058-1-0-1_Template_AIDataset.json",
+  "Artificial Intelligence Dataset/1/0/1/IDTA 02058-1-0-1_Template_AIDataset_forAASMetamodelV3.1.json",
+  "Artificial Intelligence Dataset/1/0/2/IDTA 02058-1-0-2_Template_AIDataset.json",
+  "Artificial Intelligence Dataset/1/0/2/IDTA 02058-1-0-2_Template_AIDataset_forAASMetamodelV3.1.json",
+  "Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Template_AIDataset.json",
+  "Artificial Intelligence Deployment/1/0/1/IDTA 02059-1-0-1_Template_AIDeployment.json",
+  "Artificial Intelligence Deployment/1/0/1/IDTA 02059-1-0-1_Template_AIDeployment_forAASMetamodelV3.1.json",
+  "Artificial Intelligence Deployment/1/0/2/IDTA 02059-1-0-2_Template_AIDeployment.json",
+  "Artificial Intelligence Deployment/1/0/2/IDTA 02059-1-0-2_Template_AIDeployment_forAASMetamodelV3.1.json",
+  "Artificial Intelligence Deployment/1/0/IDTA 02059-1-0_Template_AIDeployment.json",
+  "Artificial Intelligence Model Nameplate/1/0/1/IDTA 02060-1-0-1_Template_AIModelNameplate.json",
+  "Artificial Intelligence Model Nameplate/1/0/1/IDTA 02060-1-0-1_Template_AIModelNameplate_forAASMetamodelV3.1.json",
+  "Artificial Intelligence Model Nameplate/1/0/IDTA 02060-1-0_Template_AIModelNameplate.json",
+  "Asset Interfaces Description/1/0/1/IDTA 02017-1-0-1_Template_Asset Interfaces Description.json",
+  "Asset Interfaces Description/1/0/1/IDTA 02017-1-0-1_Template_Asset Interfaces Description_forAASMetamodelV3.1.json",
+  "Asset Interfaces Description/1/0/IDTA 02017-1-0_Template_Asset Interfaces Description.json",
+  "Asset Interfaces Description/1/1/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+  "Asset Interfaces Description/1/2/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+  "Asset Interfaces Mapping Configuration/1/0/1/IDTA 02027-1-0-1_Template_AIMC.json",
+  "Asset Interfaces Mapping Configuration/1/0/1/IDTA 02027-1-0-1_Template_AIMC_forAASMetamodelV3.1.json",
+  "Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Template_AIMC .json",
+  "Asset Interfaces Mapping Configuration/2/0/IDTA 02027_Template_AIMC.json",
+  "Asset Interfaces Mapping Configuration/2/0/IDTA 02027_Template_AIMC_without_examplevalues.json",
+  "Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Template_AIMC.json",
+  "Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Template_AIMC_without_examplevalues.json",
+  "Capability Description/1/0/1/IDTA 02020_Template_Capability_Description.json",
+  "Carbon Footprint/1/0/1/IDTA 02023-1-0-1 _Template_CarbonFootprint.json",
+  "Carbon Footprint/1/0/1/IDTA 02023-1-0-1 _Template_CarbonFootprint_forAASMetamodelV3.1.json",
+  "Carbon Footprint/1/0/2/IDTA 02023-1-0-2 _Template_CarbonFootprint.json",
+  "Carbon Footprint/1/0/2/IDTA 02023-1-0-2 _Template_CarbonFootprint_forAASMetamodelV3.1.json",
+  "Carbon Footprint/1/0/IDTA 02023 _Template_CarbonFootprint.json",
+  "Contact Information/1/0/1/IDTA 02002-1-0-1_Template_ContactInformation.json",
+  "Contact Information/1/0/1/IDTA 02002-1-0-1_Template_ContactInformation_forAASMetamodelV3.1.json",
+  "Contact Information/1/0/2/IDTA 02002-1-0-2_Template_ContactInformation.json",
+  "Contact Information/1/0/2/IDTA 02002-1-0-2_Template_ContactInformation_forAASMetamodelV3.1.json",
+  "Contact Information/1/0/IDTA 02002-1-0_Template_ContactInformation.json",
+  "Control Component Instance/2/0/1/IDTA 02016-2-0-1 _Template_ControlComponentInstance.json",
+  "Control Component Instance/2/0/1/IDTA 02016-2-0-1 _Template_ControlComponentInstance_forAASMetamodelV3.1.json",
+  "Control Component Instance/2/0/IDTA 02016-2-0 _Template_ControlComponentInstance.json",
+  "Control Component Type/2/0/1/IDTA 02015-2-0-1 _Template_ControlComponentType.json",
+  "Control Component Type/2/0/1/IDTA 02015-2-0-1 _Template_ControlComponentType_forAASMetamodelV3.1.json",
+  "Control Component Type/2/0/2/IDTA 02015-2-0-2 _Template_ControlComponentType.json",
+  "Control Component Type/2/0/2/IDTA 02015-2-0-2 _Template_ControlComponentType_forAASMetamodelV3.1.json",
+  "Control Component Type/2/0/IDTA 02015-2-0 _Template_ControlComponentType.json",
+  "Control Configuration and Parametrization for NC and CNC Machines/1/0/1/IDTA 02053-1-0-1_Template_ControlConfig.json",
+  "Control Configuration and Parametrization for NC and CNC Machines/1/0/1/IDTA 02053-1-0-1_Template_ControlConfig_forAASMetamodelV3.1.json",
+  "Control Configuration and Parametrization for NC and CNC Machines/1/0/2/IDTA 02053-1-0-2_Template_ControlConfig.json",
+  "Control Configuration and Parametrization for NC and CNC Machines/1/0/2/IDTA 02053-1-0-2_Template_ControlConfig_forAASMetamodelV3.1.json",
+  "Control Configuration and Parametrization for NC and CNC Machines/1/0/IDTA 02053-1-0_Template_ControlConfig.json",
+  "Creation and Classification of Materials/1/0/1/IDTA 02034-1-0-1 Template_BackendSpecificMaterialInformation.json",
+  "Creation and Classification of Materials/1/0/1/IDTA 02034-1-0-1 Template_BackendSpecificMaterialInformation_forAASMetamodelV3.1.json",
+  "DEXPI/1/0/1/IDTA 02012-1-0-1_Template_DEXPI.json",
+  "Data Retention Policies/1/0/1/IDTA 02056-1-0-1_Template_Data Retention Policies.json",
+  "Data Retention Policies/1/0/1/IDTA 02056-1-0-1_Template_Data Retention Policies_forAASMetamodelV3.1.json",
+  "Data Retention Policies/1/0/2/IDTA 02056-1-0-2_Template_Data Retention Policies.json",
+  "Data Retention Policies/1/0/2/IDTA 02056-1-0-2_Template_Data Retention Policies_forAASMetamodelV3.1.json",
+  "Data Retention Policies/1/0/IDTA 02056-1-0_Template_Data Retention Policies.json",
+  "Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate.json",
+  "Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate_without_examplevalues.json",
+  "Digital Battery Passport/1_Digital Nameplate/1/1/IDTA 02035-1_DBP-Part-1_Digital Nameplate.json",
+  "Digital Battery Passport/1_Digital Nameplate/1/1/IDTA 02035-1_DBP-Part-1_Digital Nameplate_without_examplevalues.json",
+  "Digital Battery Passport/2_Handover Documentation/1/0/IDTA 02035-2_DBP-Part-2_HandoverDocumentation.json",
+  "Digital Battery Passport/2_Handover Documentation/1/0/IDTA 02035-2_DBP-Part-2_HandoverDocumentation_without_examplevalues.json",
+  "Digital Battery Passport/2_Handover Documentation/1/1/IDTA 02035-2_DBP-Part-2_HandoverDocumentation.json",
+  "Digital Battery Passport/2_Handover Documentation/1/1/IDTA 02035-2_DBP-Part-2_HandoverDocumentation_without_examplevalues.json",
+  "Digital Battery Passport/3_Product Carbon Footprint/1/0/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint.json",
+  "Digital Battery Passport/3_Product Carbon Footprint/1/0/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint_without_examplevalues.json",
+  "Digital Battery Passport/3_Product Carbon Footprint/1/1/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint.json",
+  "Digital Battery Passport/3_Product Carbon Footprint/1/1/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint_without_examplevalues.json",
+  "Digital Battery Passport/4_Technical Data/1/0/1/IDTA 02035-4_DBP-Part-4_TechnicalData_without_examplevalues.json",
+  "Digital Battery Passport/4_Technical Data/1/0/2/IDTA 02035-4_DBP-Part-4_TechnicalData_without_examplevalues.json",
+  "Digital Battery Passport/4_Technical Data/1/0/IDTA 02035-4_DBP-Part-4_TechnicalData_without_examplevalues.json",
+  "Digital Battery Passport/5_Product Condition/1/0/1/IDTA 02035-5_DBP-Part-5_ProductCondition_without_examplevalues.json",
+  "Digital Battery Passport/5_Product Condition/1/0/IDTA 02035-5_DBP-Part-5_ProductCondition_without_examplevalues.json",
+  "Digital Battery Passport/6_Material Composition/1/0/1/IDTA 02035-6_DBP-Part-6_MaterialComposition.json",
+  "Digital Battery Passport/6_Material Composition/1/0/1/IDTA 02035-6_DBP-Part-6_MaterialComposition_without_examplevalues.json",
+  "Digital Battery Passport/6_Material Composition/1/0/IDTA 02035-6_DBP-Part-6_MaterialComposition.json",
+  "Digital Battery Passport/6_Material Composition/1/0/IDTA 02035-6_DBP-Part-6_MaterialComposition_without_examplevalues.json",
+  "Digital Battery Passport/7_Circularity/1/0/1/IDTA 02035-7_DBP-Part-7_Circularity.json",
+  "Digital Battery Passport/7_Circularity/1/0/1/IDTA 02035-7_DBP-Part-7_Circularity_without_examplevalues.json",
+  "Digital Battery Passport/7_Circularity/1/0/2/IDTA 02035-7_DBP-Part-7_Circularity.json",
+  "Digital Battery Passport/7_Circularity/1/0/2/IDTA 02035-7_DBP-Part-7_Circularity_without_examplevalues.json",
+  "Digital Battery Passport/7_Circularity/1/0/IDTA 02035-7_DBP-Part-7_Circularity.json",
+  "Digital Battery Passport/7_Circularity/1/0/IDTA 02035-7_DBP-Part-7_Circularity_without_examplevalues.json",
+  "Digital Product Passport/Digital Product Passport Part-1/1/0/0/IDTA 02099-1_Template Digital Product Passport - Part 1.json",
+  "Digital Product Passport/Digital Product Passport Part-1/1/0/1/IDTA 02099-1_Template Digital Product Passport - Part 1.json",
+  "Digital Product Passport/Digital Product Passport Part-1/1/0/2/IDTA 02099-1_Template Digital Product Passport - Part 1.json",
+  "Digital Quality Documents/Part 1 Core Elements/1/0/IDTA 02065-1_Template_DigitalQualityDocuments-part-1.json",
+  "Digital Quality Documents/Part 1 Core Elements/1/1/IDTA 02065-1_Template_DigitalQualityDocuments-part-1.json",
+  "Digital nameplate/3/0/1/IDTA 02006-3-0-1_Template_Digital Nameplate.json",
+  "Digital nameplate/3/0/2/IDTA 02006-3-0-2_Template_Digital Nameplate.json",
+  "Energy Flexibility Data Model/1/0/IDTA 02076_Template_EnergyFlexibilityDataModel.json",
+  "Energy Flexibility Data Model/1/1/IDTA 02076_Template_EnergyFlexibilityDataModel.json",
+  "Factory Automation Data for Plant Planning/1/0/IDTA 02075_Template_FactoryAutomationDataForPlantPlanning.json",
+  "Factory Automation Data for Plant Planning/1/1/IDTA 02075_Template_FactoryAutomationDataForPlantPlanning.json",
+  "Fire Protection on Railway Vehicles/1/0/IDTA 02102_Example Fire Protection on Railway Vehicles.json",
+  "Fire Protection on Railway Vehicles/1/0/IDTA 02102_Template Fire Protection on Railway Vehicles.json",
+  "Functional Safety/1/0/1/IDTA 02014-1-0-1_Template_FunctionalSafety.json",
+  "Functional Safety/1/0/1/IDTA 02014-1-0-1_Template_FunctionalSafety_forAASMetamodelV3.1.json",
+  "Functional Safety/1/0/2/IDTA 02014-1-0-2_Template_FunctionalSafety.json",
+  "Functional Safety/1/0/2/IDTA 02014-1-0-2_Template_FunctionalSafety_forAASMetamodelV3.1.json",
+  "Functional Safety/1/0/IDTA 02014-1-0_Template_FunctionalSafety.json",
+  "Handover Documentation/2/0/1/IDTA 02004-2-0-1_Template_HandoverDocumentation.json",
+  "Handover Documentation/2/0/1/IDTA 02004-2-0-1_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+  "Handover Documentation/2/0/2/IDTA 02004-2-0-2_Template_HandoverDocumentation.json",
+  "Handover Documentation/2/0/2/IDTA 02004-2-0-2_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+  "Handover Documentation/2/0/IDTA 02004-2-0_Template_HandoverDocumentation.json",
+  "Hierarchical Structures enabling Bills of Material/1/1/1/IDTA 02011-1-1-1_Template_HSEBoM.json",
+  "Hierarchical Structures enabling Bills of Material/1/1/1/IDTA 02011-1-1-1_Template_HSEBoM_forAASMetamodelV3.1.json",
+  "Hierarchical Structures enabling Bills of Material/1/1/2/IDTA 02011-1-1-2_Template_HSEBoM.json",
+  "Hierarchical Structures enabling Bills of Material/1/1/2/IDTA 02011-1-1-2_Template_HSEBoM_forAASMetamodelV3.1.json",
+  "Inspection Documents of Steel Products/1/0/1/IDTA 02032-1-0-1_Template Inspection Documents of Steel Products.json",
+  "Inspection Documents of Steel Products/1/0/1/IDTA 02032-1-0-1_Template Inspection Documents of Steel Products_forAASMetamodelV3.1.json",
+  "Inspection Documents of Steel Products/1/0/IDTA 02032-1-0_Template Inspection Documents of Steel Products.json",
+  "Intelligent Information  for Use/1/0/1/IDTA 02063-1-0-1_Template__IntelligentInformationForUse.json",
+  "Intelligent Information  for Use/1/0/1/IDTA 02063-1-0-1_Template__IntelligentInformationForUse_forAASMetamodelV3.1.json",
+  "Intelligent Information  for Use/1/0/2/IDTA 02063-1-0-2_Template__IntelligentInformationForUse.json",
+  "Intelligent Information  for Use/1/0/2/IDTA 02063-1-0-2_Template__IntelligentInformationForUse_forAASMetamodelV3.1.json",
+  "Intelligent Information  for Use/1/0/IDTA 02063-1-0_Template__IntelligentInformationForUse.json",
+  "MTP/1/0/1/IDTA_02001-1-0-1_Submodel_MTPv1.0-rc2-with-documentation1_en.json",
+  "MTP/1/0/1/IDTA_02001-1-0-1_Submodel_MTPv1.0-rc2-with-documentation1_en_forAASMetamodelV3.1.json",
+  "MTP/1/0/2/IDTA_02001-1-0-2_Submodel_MTPv1.0-rc2-with-documentation1_en.json",
+  "MTP/1/0/2/IDTA_02001-1-0-2_Submodel_MTPv1.0-rc2-with-documentation1_en_forAASMetamodelV3.1.json",
+  "Maintenance Instructions/1/0/1/IDTA_02018-1-0-1_Template_MaintenanceInstructions.json",
+  "Material Data for Plastic Waste/1/0/IDTA_02080_Template_Material Data for Plastic Waste.json",
+  "Material Data for Plastic Waste/1/1/IDTA_02080_Template_Material Data for Plastic Waste.json",
+  "OPC UA Server Datasheet/1/0/IDTA 02009-1-0-Template-OPCUA-Server Datasheet.json",
+  "OPC UA Server Datasheet/1/1/IDTA 02009-1-0-Template-OPCUA-Server Datasheet.json",
+  "Plant Asset Management Specification Sheet/1/0/1/IDTA 02019-1-0-1_Template_PlantAssetManagement.json",
+  "Plant Asset Management Specification Sheet/1/0/2/IDTA 02019-1-0-2_Template_PlantAssetManagement.json",
+  "Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0-1_Template_PlantAssetManagement_forAASMetamodelV3.1.json",
+  "Plastic and Rubber Moulds/Part 1 Identification/1/0/IDTA 02038-1_Template_Plastic and Rubber Moulds-Identification.json",
+  "Plastic and Rubber Moulds/Part 1 Identification/1/0/IDTA 02038-1_Template_Plastic and Rubber Moulds-Identification_forAASMetamodelV3.1.json",
+  "Plastic and Rubber Moulds/Part 1 Identification/1/1/IDTA 02038-1_Template_Plastic and Rubber Moulds-Identification.json",
+  "Plastic and Rubber Moulds/Part 1 Identification/1/1/IDTA 02038-1_Template_Plastic and Rubber Moulds-Identification_forAASMetamodelV3.1.json",
+  "Predictive Maintenance/1/0/IDTA 02048_Template_PredictiveMaintenance.json",
+  "Predictive Maintenance/1/0/IDTA 02048_Template_PredictiveMaintenance_forAASMetamodelV3.1.json",
+  "Process Parameters Instance/1/0/IDTA 02031-2_Template_ProcessParameters_Instance.json",
+  "Process Parameters Instance/1/0/IDTA 02031-2_Template_ProcessParameters_Instance_forAASMetamodelV3.1.json",
+  "Process Parameters Type/1/0/IDTA 02031-1_Template_ProcessParameters_Type.json",
+  "Process Parameters Type/1/0/IDTA 02031-1_Template_ProcessParameters_Type_forAASMetamodelV3.1.json",
+  "Process Variables for Manufacturing Key Performance Indicators/1/0/IDTA 02066_Template_PVM.json",
+  "Product Change Notifications/1/1/IDTA_02036_Template_ProductChangeNotifications.json",
+  "Production Calendar/1/0/IDTA 02067_Template_ProductionCalendar.json",
+  "Production Calendar/1/0/IDTA 02067_Template_ProductionCalendar_forAASMetamodelV3.1.json",
+  "Production Calendar/1/1/IDTA 02067_Template_ProductionCalendar.json",
+  "Production Calendar/1/1/IDTA 02067_Template_ProductionCalendar_forAASMetamodelV3.1.json",
+  "Provision of Company Data/1/0/1/IDTA 02068_Template_Provision Of Company Data.json",
+  "Provision of Company Data/1/0/1/IDTA 02068_Template_Provision Of Company Data_forAASMetamodelV3.1.json",
+  "Provision of Company Data/1/0/IDTA 02068_Template_Provision Of Company Data.json",
+  "Provision of Company Data/1/0/IDTA 02068_Template_Provision Of Company Data_forAASMetamodelV3.1.json",
+  "Provision of Simulation Models/1/0/1/IDTA 02005-1-0-1_Template_ProvisionOfSimulationModels.json",
+  "Provision of Simulation Models/1/0/1/IDTA 02005-1-0-1_Template_ProvisionOfSimulationModels_forAASMetamodelV3.1.json",
+  "Provision of Simulation Models/1/0/IDTA 02005-1-0_Template_ProvisionOfSimulationModels.json",
+  "Purchase Order/1/0/1/IDTA-02050-1-0-1_Template_PurchaseOrder.json",
+  "Purchase Order/1/0/1/IDTA-02050-1-0-1_Template_PurchaseOrder_forAASMetamodelV3.1.json",
+  "Purchase Order/1/0/IDTA-02050_Template_PurchaseOrder.json",
+  "Purchase Order/1/0/IDTA-02050_Template_PurchaseOrder_forAASMetamodelV3.1.json",
+  "Quality Control for Machining/1/0/IDTA_02049_Template_QualityControlForMachining.json",
+  "Quality Control for Machining/1/1/IDTA_02049_Template_QualityControlForMachining.json",
+  "Reliability/1/0/1/IDTA 02013-1-0-1_Template_Reliability.json",
+  "Reliability/1/0/1/IDTA 02013-1-0-1_Template_Reliability_forAASMetamodelV3.1.json",
+  "Reliability/1/0/2/IDTA 02013-1-0-2_Template_Reliability.json",
+  "Reliability/1/0/2/IDTA 02013-1-0-2_Template_Reliability_forAASMetamodelV3.1.json",
+  "Reliability/1/0/IDTA 02013-1-0_Template_Reliability.json",
+  "Safety Instrumented Functions/Part 1 Safety Instrumented Function/1/0/IDTA 02064_Example_SafetyInstrumentedFunction.json",
+  "Safety Instrumented Functions/Part 1 Safety Instrumented Function/1/0/IDTA 02064_Template_SafetyInstrumentedFunction.json",
+  "Safety Instrumented Functions/Part 2 Safety Instrumented System/1/0/IDTA 02097_Example_SafetyInstrumentedSystem.json",
+  "Safety Instrumented Functions/Part 2 Safety Instrumented System/1/0/IDTA 02097_Template_SafetyInstrumentedSystem.json",
+  "Safety Instrumented Functions/Part 3 Safety Instrumented System Device/1/0/IDTA 02079_Example_SafetyInstrumentedSystemDevice.json",
+  "Safety Instrumented Functions/Part 3 Safety Instrumented System Device/1/0/IDTA 02079_Template_SafetyInstrumentedSystemDevice.json",
+  "Safety Instrumented Functions/Part 4 Equipment Under Control/1/0/IDTA 02096_Example_EquipmentUnderControl.json",
+  "Safety Instrumented Functions/Part 4 Equipment Under Control/1/0/IDTA 02096_Template_EquipmentUnderControl.json",
+  "Service Request Notification/1/0/1/IDTA 02010-1-0-1_Template_ServiceRequestNotification.json",
+  "Service Request Notification/1/0/1/IDTA 02010-1-0-1_Template_ServiceRequestNotification_forAASMetamodelV3.1.json",
+  "Service Request Notification/1/0/2/IDTA 02010-1-0-2_Template_ServiceRequestNotification.json",
+  "Service Request Notification/1/0/2/IDTA 02010-1-0-2_Template_ServiceRequestNotification_forAASMetamodelV3.1.json",
+  "Sizing of Power Drive Trains/1/0/1/IDTA 02021-1-0-1_Template_Sizing of Power Drive Trains.json",
+  "Sizing of Power Drive Trains/1/0/1/IDTA 02021-1-0-1_Template_Sizing of Power Drive Trains_forAASMetamodelV3.1.json",
+  "Sizing of Power Drive Trains/1/0/2/IDTA 02021-1-0-2_Template_Sizing of Power Drive Trains.json",
+  "Sizing of Power Drive Trains/1/0/2/IDTA 02021-1-0-2_Template_Sizing of Power Drive Trains_forAASMetamodelV3.1.json",
+  "Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Template_Sizing of Power Drive Trains.json",
+  "Software Nameplate/1/0/1/IDTA 02007-1-0-1_Template_Software Nameplate.json",
+  "Software Nameplate/1/0/1/IDTA 02007-1-0-1_Template_Software Nameplate_forAASMetamodelV3.1.json",
+  "Software Nameplate/1/0/2/IDTA 02007-1-0-2_Template_Software Nameplate.json",
+  "Software Nameplate/1/0/2/IDTA 02007-1-0-2_Template_Software Nameplate_forAASMetamodelV3.1.json",
+  "Software Nameplate/1/0/IDTA 02007-1-0_Template_Software Nameplate.json",
+  "Technical Data for Automated Guided Vehicles/1/0/1/IDTA 02047-1-0-1 Template_TechnicalDataForAGV.json",
+  "Technical Data for Automated Guided Vehicles/1/0/1/IDTA 02047-1-0-1 Template_TechnicalDataForAGV_forAASMetamodelV3.1.json",
+  "Technical Data for Automated Guided Vehicles/1/0/2/IDTA 02047-1-0-2 Template_TechnicalDataForAGV.json",
+  "Technical Data for Automated Guided Vehicles/1/0/2/IDTA 02047-1-0-2 Template_TechnicalDataForAGV_forAASMetamodelV3.1.json",
+  "Technical Data for Automated Guided Vehicles/1/0/IDTA 02047-1-0 Template_TechnicalDataForAGV.json",
+  "Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.json",
+  "Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData_forAASMetamodelV3.1.json",
+  "Technical_Data/2/0/2/IDTA 02003_2-0-2_Template_TechnicalData.json",
+  "Technical_Data/2/0/2/IDTA 02003_2-0-2_Template_TechnicalData_forAASMetamodelV3.1.json",
+  "Technical_Data/2/0/IDTA 02003_Template_TechnicalData.json",
+  "Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData.json",
+  "Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData_forAASMetamodelV3.1.json",
+  "Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_withOperations_TimeSeriesData.json",
+  "Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_withOperations_TimeSeriesData_forAASMetamodelV3.1.json",
+  "Time Series Data/1/1/2/IDTA 02008-1-1-2_Template_TimeSeriesData.json",
+  "Time Series Data/1/1/2/IDTA 02008-1-1-2_Template_TimeSeriesData_forAASMetamodelV3.1.json",
+  "Time Series Data/1/1/2/IDTA 02008-1-1-2_Template_withOperations_TimeSeriesData.json",
+  "Time Series Data/1/1/2/IDTA 02008-1-1-2_Template_withOperations_TimeSeriesData_forAASMetamodelV3.1.json",
+  "Time Series Data/1/1/IDTA 02008-1-1_Template_TimeSeriesData.json",
+  "Time Series Data/1/1/IDTA 02008-1-1_Template_withOperations_TimeSeriesData.json",
+  "Wireless Communication/1/0/1/IDTA 02022-1-0-1_Template_Wireless Communication.json",
+  "Wireless Communication/1/0/1/IDTA 02022-1-0-1_Template_Wireless Communication_forAASMetamodelV3.1.json",
+  "Wireless Communication/1/0/2/IDTA 02022-1-0-2_Template_Wireless Communication.json",
+  "Wireless Communication/1/0/2/IDTA 02022-1-0-2_Template_Wireless Communication_forAASMetamodelV3.1.json",
+  "Wireless Communication/1/0/IDTA 02022-1-0_Template_Wireless Communication.json",
+  "Worskstation Worker Matching Data/1/0/1/IDTA 02046-1-0-1_Template_WWMD.json",
+  "Worskstation Worker Matching Data/1/0/1/IDTA 02046-1-0-1_Template_WWMD_forAASMetamodelV3.1.json",
+  "Worskstation Worker Matching Data/1/0/IDTA 02046-1-0_Template_WWMD.json",
+  "sensor4.0/Part 1 Measurement Value/1/0/1/IDTA 02029-1-0-1_Template_Sensor4.0_MeasurementValue.json",
+  "sensor4.0/Part 1 Measurement Value/1/0/IDTA 02029-1_Template_Sensor4.0_MeasurementValue.json"
+ ],
+ "fail": [
+  [
+   "Capability Description/1/0/IDTA 02020_Template_Capability_Description.json",
+   "idShort"
+  ],
+  [
+   "Creation and Classification of Materials/1/0/IDTA 02034-1-0 Template_BackendSpecificMaterialInformation.json",
+   "AASd-131"
+  ],
+  [
+   "DEXPI/1/0/IDTA 02012-1-0_Template_DEXPI.json",
+   "AASd-121"
+  ],
+  [
+   "Data Model for Asset Location/1/0/1/IDTA 02045-1-0-1_Template_DataModelForAssetLocation.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Data Model for Asset Location/1/0/1/IDTA 02045-1-0-1_Template_DataModelForAssetLocation_forAASMetamodelV3.1.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Data Model for Asset Location/1/0/IDTA 02045-1-0_Template_DataModelForAssetLocation.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Digital Battery Passport/4_Technical Data/1/0/1/IDTA 02035-4_DBP-Part-4_TechnicalData.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital Battery Passport/4_Technical Data/1/0/2/IDTA 02035-4_DBP-Part-4_TechnicalData.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital Battery Passport/4_Technical Data/1/0/IDTA 02035-4_DBP-Part-4_TechnicalData.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital Battery Passport/5_Product Condition/1/0/1/IDTA 02035-5_DBP-Part-5_ProductCondition.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital Battery Passport/5_Product Condition/1/0/2/IDTA 02035-5_DBP-Part-5_ProductCondition_V1.0.2.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital Battery Passport/5_Product Condition/1/0/IDTA 02035-5_DBP-Part-5_ProductCondition.json",
+   "Invalid valueType "
+  ],
+  [
+   "Digital nameplate/3/0/IDTA 02006-3-0_Template_Digital Nameplate.json",
+   "'' is not a valid path according to RFC8089."
+  ],
+  [
+   "Handover Documentation/2/0/IDTA 02004-2-0_Example_HandoverDocumentation.json",
+   "AASd-118"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Template_HSEBoM.json",
+   "AASd-123"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/1/IDTA 02011-1-1-1 _Template_BoM_ExtensionbasedonIEC81346.json",
+   "AASd-014"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/1/IDTA 02011-1-1-1 _Template_BoM_ExtensionbasedonIEC81346_forAASMetamodelV3.1.json",
+   "AASd-014"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/2/IDTA 02011-1-1-2 _Template_BoM_ExtensionbasedonIEC81346.json",
+   "AASd-014"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/2/IDTA 02011-1-1-2 _Template_BoM_ExtensionbasedonIEC81346_forAASMetamodelV3.1.json",
+   "AASd-014"
+  ],
+  [
+   "Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Template_BoM_ExtensionbasedonIEC81346.json",
+   "AASd-014"
+  ],
+  [
+   "MTP/1/0/IDTA 02001-1-0_Subomdel_MTPv1.0-rc2-with-documentation.json",
+   "AASc-002"
+  ],
+  [
+   "Maintenance Instructions/1/0/IDTA_02018_Template_MaintenanceInstructions.json",
+   "idShort"
+  ],
+  [
+   "Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Template_PlantAssetManagement.json",
+   "AASd-020"
+  ],
+  [
+   "Product Change Notifications/1/0/IDTA_02036_Template_ProductChangeNotifications.json",
+   "idShort"
+  ],
+  [
+   "Provision of 3D Models/1/0/1/IDTA 02026-1-0-1_Template_ProvisionOf3DModels.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Provision of 3D Models/1/0/1/IDTA 02026-1-0-1_Template_ProvisionOf3DModels_forAASMetamodelV3.1.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Provision of 3D Models/1/0/2/IDTA 02026-1-0-2_Template_ProvisionOf3DModels.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Provision of 3D Models/1/0/2/IDTA 02026-1-0-2_Template_ProvisionOf3DModels_forAASMetamodelV3.1.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Provision of 3D Models/1/0/IDTA02026-1-0_Template_ProvisionOf3DModels.json",
+   "Invalid idShort value"
+  ],
+  [
+   "Provision of Simulation Models/1/1/IDTA 02005_Template_ProvisionOfSimulationModel.json",
+   "'docs/simulation-documentation.pdf' is not a valid path according to RFC8089."
+  ],
+  [
+   "Provision of Simulation Models/1/2/IDTA 02005_Template_ProvisionOfSimulationModel.json",
+   "'docs/simulation-documentation.pdf' is not a valid path according to RFC8089."
+  ],
+  [
+   "Service Request Notification/1/0/IDTA 02010-1-0_Template_ServiceRequestNotification.json",
+   "AASc-002"
+  ],
+  [
+   "Technical_Data/2/0/IDTA 02003_Sample_TechnicalData.json",
+   "Invalid idShort value"
+  ]
+ ]
+}

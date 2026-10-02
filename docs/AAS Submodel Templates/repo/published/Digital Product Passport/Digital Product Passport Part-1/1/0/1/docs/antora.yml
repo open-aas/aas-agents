@@ -1,0 +1,6 @@
+name: IDTA-02099-1
+title: 'IDTA-02099-1: DPP Metadata'
+version: '1.0.1'
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

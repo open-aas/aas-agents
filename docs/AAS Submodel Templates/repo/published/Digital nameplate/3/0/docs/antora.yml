@@ -1,0 +1,6 @@
+name: IDTA-02006
+title: "IDTA-02006 Digital Nameplate for Industrial Equipment"
+version: '3.0'
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

@@ -1,0 +1,6 @@
+name: IDTA-02035-1
+title: 'IDTA-02035-1 Battery Passport: Digital Nameplate'
+version: '1.0'
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
