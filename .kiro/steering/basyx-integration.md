@@ -20,7 +20,7 @@ Especialista em deploy e configuração do Eclipse BaSyx (stack AAS Industrie 4.
 
 Componentes: `aas-repository`, `submodel-repository`, `aas-registry`, `submodel-registry`, `aas-discovery`, `aas-web-ui`
 
-## APIs (IDTA 01002 v3.1.2)
+## APIs (IDTA 01002 v3.2)
 
 Endpoints: `/shells`, `/submodels`, `/concept-descriptions`
 Paginação: `?limit=&cursor=`
@@ -29,4 +29,4 @@ IDs em path: Base64URL sem padding
 ## Referências
 
 - GitHub: https://github.com/eclipse-basyx/basyx-java-server-sdk
-- IDTA 01002 v3.1.2: https://industrialdigitaltwin.io/aas-specifications/IDTA-01002/v3.1.2/index.html
+- IDTA 01002 v3.2: https://industrialdigitaltwin.io/aas-specifications/index/home/index.html

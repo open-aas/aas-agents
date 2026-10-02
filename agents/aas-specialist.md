@@ -20,16 +20,25 @@ Este agente atua como especialista técnico em **Asset Administration Shell (AAS
 ### Especificações e normas
 
 > Portal oficial das especificações: **https://industrialdigitaltwin.io/aas-specifications/index/home/index.html**  
-> Todas as versões abaixo fazem parte do **Release 25-01** da IDTA.
+> Versões vigentes em outubro de 2026 (Partes 1, 2 e 5 na v3.2).
 
 | Documento | Título | Versão atual |
 |---|---|---|
-| IDTA 01001 | Part 1: Metamodel | v3.1.2 |
-| IDTA 01002 | Part 2: Application Programming Interfaces | v3.1.2 |
+| IDTA 01001 | Part 1: Metamodel | v3.2 |
+| IDTA 01002 | Part 2: Application Programming Interfaces | v3.2 |
 | IDTA 01003-a | Part 3a: Data Specification – IEC 61360 | v3.1.1 |
 | IDTA 01003-b | Part 3b: Data Specification – Measurement Units | v3.0 |
-| IDTA 01004 | Part 4: Security | v3.0.2 |
-| IDTA 01005 | Part 5: Package File Format (AASX) | v3.1 |
+| IDTA 01004 | Part 4: Security | v3.1 |
+| IDTA 01005 | Part 5: Package File Format (AASX) | v3.2 |
+
+**Mudanças da v3.1/v3.2 que afetam modelagem** (fonte: anexo *Changes* da IDTA-01001 v3.2):
+- `Referable/category` está **descontinuado** desde a v3.1, e a AASd-090 (CONSTANT/PARAMETER/VARIABLE) foi removida.
+- O idShort aceita hífen e exige pelo menos 2 caracteres: `^[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9_]+$` (AASd-002).
+- O idShort é obrigatório, exceto para filhos diretos de `SubmodelElementList` (AASd-117).
+- Constraints novas na v3.2: AASd-137 (Reference externa sem AasReferables) e AASd-138 (SubmodelElementList em template ou OperationVariable com exatamente 1 elemento).
+- `AssetKind` ganhou o valor `Batch` (DPP). `Range` deixou de interpretar min/max ausente como ±∞.
+- Os mapeamentos OPC UA e AutomationML saíram da Parte 1 (v3.1).
+- Containers devem suportar no mínimo 32 níveis de recursão.
 
 Versões "in progress" existem para 01001, 01002, 01003-a, 01003-b, 01004 e 01005 — sempre verificar o portal para drafts mais recentes.
 
@@ -175,10 +184,10 @@ Versões "in progress" existem para 01001, 01002, 01003-a, 01003-b, 01004 e 0100
 | Campo | Valor |
 |---|---|
 | Versão da spec | 1.0 |
-| Referência principal | IDTA 01001 v3.1.2 (metamodelo AAS, Part 1) |
+| Referência principal | IDTA 01001 v3.2 (metamodelo AAS, Part 1) |
 | Portal oficial | https://industrialdigitaltwin.io/aas-specifications/index/home/index.html |
 | Repositório de referência | https://github.com/admin-shell-io |
-| Release IDTA | 25-01 |
+| Versões IDTA | Parts 1, 2, 5: v3.2 · Part 4: v3.1 |
 | Última revisão | Junho 2026 |
 | Autor | — |
 | Uso previsto | Assistente técnico interno / Claude Code agent |

@@ -26,7 +26,7 @@ Especialista em deploy, configuração e integração do **Eclipse BaSyx** — a
 - **AAS Environment** — servidor all-in-one (dev/teste)
 - **AAS Web UI** — interface gráfica para explorar AAS
 
-### APIs REST (IDTA 01002 v3.1.2)
+### APIs REST (IDTA 01002 v3.2)
 - Endpoints base: `/shells`, `/submodels`, `/concept-descriptions`
 - Paginação: `?limit=&cursor=`
 - Serialização: `?level=deep|core` e `?extent=withBlobValue`
@@ -107,6 +107,6 @@ volumes:
 |---|---|
 | Versão da spec | 1.0 |
 | Referência BaSyx | v2.0.x |
-| Referência API | IDTA 01002 v3.1.2 |
+| Referência API | IDTA 01002 v3.2 |
 | Repositório de referência (schemas/exemplos) | https://github.com/admin-shell-io |
 | Última revisão | Junho 2026 |

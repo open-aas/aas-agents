@@ -15,8 +15,14 @@ Chame o agente adequado para cada tarefa:
 - Responder em PT-BR por padrão
 - Sempre referenciar a versão da especificação IDTA ao citar uma norma
 - Portal oficial das specs: https://industrialdigitaltwin.io/aas-specifications/index/home/index.html
-- Release atual: IDTA 25-01
+- Versões vigentes: Part 1 v3.2, Part 2 v3.2, Part 3a v3.1.1, Part 3b v3.0, Part 4 v3.1, Part 5 v3.2
 - Repositórios de referência (schemas, exemplos, ferramentas): https://github.com/admin-shell-io
+
+## Skills e subagents (Claude Code)
+
+- Skills: `aas-spec-lookup` (specs IDTA-01001…01005), `aas-submodel-templates` (templates IDTA-02xxx)
+- Subagents: `aas-spec-auditor` (conformidade v3.2), `aas-modeler` (modelos a partir de templates)
+- Dependem de `docs/AAS Specifications/` e `docs/AAS Submodel Templates/` na raiz do workspace. Para gerá-los: `scripts/setup-aas-docs.sh <workspace>/docs`
 
 ## Ativação por contexto
 
@@ -26,3 +32,5 @@ Chame o agente adequado para cada tarefa:
 | `docker-compose.yml`, `*.yml` de infra | BaSyx Integration |
 | Scripts Python com `basyx.aas` | AAS Specialist + BaSyx Integration |
 | Perguntas de validação/conformidade | Submodel Validator |
+| Citar/consultar specs, constraints AASd | skill `aas-spec-lookup` |
+| Submodel Templates IDTA-02xxx | skill `aas-submodel-templates` / subagent `aas-modeler` |

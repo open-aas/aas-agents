@@ -1,12 +1,12 @@
 # AAS Agents — Cursor Rules
 
 ## Projeto
-Asset Administration Shell (AAS) — Industrie 4.0 / IDTA Release 25-01
+Asset Administration Shell (AAS) — Industrie 4.0 / IDTA AAS v3.2
 
 ## Especialidades ativas
 
 ### AAS Specialist
-- Metamodelo IDTA 01001 v3.1.2: `AssetAdministrationShell`, `Submodel`, `SubmodelElement` e todos os subtipos
+- Metamodelo IDTA 01001 v3.2: `AssetAdministrationShell`, `Submodel`, `SubmodelElement` e todos os subtipos
 - Sempre usar terminologia exata: `idShort`, `semanticId`, `modelType`, `valueType`
 - `idShort`: `[a-zA-Z][a-zA-Z0-9_]*`, máx 128 chars, único no nível
 - `semanticId`: objeto `Reference` com `type: "ExternalReference"` e `keys[]`

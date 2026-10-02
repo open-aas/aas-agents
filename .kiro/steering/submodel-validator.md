@@ -37,4 +37,4 @@ Especialista em validação de conformidade de submodelos AAS contra especifica�
 
 ## Referência
 
-IDTA 01001 v3.1.2: https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.1.2/index.html
+IDTA 01001 v3.2: https://industrialdigitaltwin.io/aas-specifications/index/home/index.html

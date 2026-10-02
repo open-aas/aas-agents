@@ -4,9 +4,9 @@ Este projeto trabalha com **Asset Administration Shell (AAS)** — Industrie 4.0
 
 ## Contexto técnico
 
-- Metamodelo: IDTA 01001 v3.1.2
-- APIs: IDTA 01002 v3.1.2
-- AASX: IDTA 01005 v3.1
+- Metamodelo: IDTA 01001 v3.2
+- APIs: IDTA 01002 v3.2
+- AASX: IDTA 01005 v3.2
 - Portal specs: https://industrialdigitaltwin.io/aas-specifications/index/home/index.html
 - Stack de referência: Eclipse BaSyx v2.x
 

@@ -17,7 +17,7 @@ Especialista em **validação de conformidade** de submodelos AAS contra as espe
 
 ## Domínio de conhecimento
 
-### Validação de metamodelo (IDTA 01001 v3.1.2)
+### Validação de metamodelo (IDTA 01001 v3.2)
 - Campos obrigatórios por tipo de elemento
 - Restrições de `idShort`: `[a-zA-Z][a-zA-Z0-9_]*`, max 128 chars, único no nível
 - `modelType` correto para cada classe
@@ -101,7 +101,7 @@ Resultado: 2 erros, 1 aviso — artefato INVÁLIDO
 | Campo | Valor |
 |---|---|
 | Versão da spec | 1.0 |
-| Referência metamodelo | IDTA 01001 v3.1.2 |
+| Referência metamodelo | IDTA 01001 v3.2 |
 | Portal IDTA | https://industrialdigitaltwin.io/aas-specifications/index/home/index.html |
 | Repositório de referência | https://github.com/admin-shell-io |
 | Última revisão | Junho 2026 |
