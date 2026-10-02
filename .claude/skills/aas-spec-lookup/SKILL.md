@@ -1,6 +1,6 @@
 ---
 name: aas-spec-lookup
-description: Use para consultar as especificações oficiais do Asset Administration Shell (IDTA-01001 a 01005, v3.x) em docs/AAS Specifications. Cobre o texto de uma constraint AASd/AASc, atributos de uma classe do metamodelo, operações e profiles da API, regras ABAC de segurança, estrutura AASX e mudanças entre versões. Use também para validar se o código do Faaster ou um modelo JSON está conforme.
+description: Use para consultar as especificações oficiais do Asset Administration Shell (IDTA-01001 a 01005, v3.x) em docs/AAS Specifications e a OpenAPI oficial da Parte 2 (docs/AAS API, perfis SSP v3.2). Cobre o texto de uma constraint AASd/AASc, atributos de uma classe do metamodelo, operações, rotas, schemas e perfis SSP da API (incluindo testes de contrato contra os YAMLs oficiais), regras ABAC de segurança, estrutura AASX e mudanças entre versões. Use também para validar se o código do Faaster ou um modelo JSON está conforme.
 ---
 # Consultando as especificações AAS
 
@@ -18,8 +18,10 @@ Pasta: `docs/AAS Specifications/` (há espaço no nome, então use aspas no shel
 | Texto exato de uma constraint | `Part1_Metamodel.txt` | `grep -n "Constraint AASd-122" …` |
 | Atributos de uma classe | `Part1_Metamodel.txt` | `grep -n "^Operation Attributes\|^Range Attributes" …` e ler cerca de 60 linhas |
 | O que mudou entre versões | `Part1_Metamodel.txt` | `grep -n "^Changes V3" …` |
-| Operação da API / rota HTTP | `Part2_API.txt` | `grep -n "Operation InvokeOperationAsync"`, `grep -n "GET /submodels"` |
-| Profiles (SSP) | `Part2_API.txt` | `grep -n "SSP-00"` |
+| Operação da API (semântica, texto normativo) | `Part2_API.txt` | `grep -n "Operation InvokeOperationAsync"` |
+| Rota HTTP exata, parâmetros, status, schema de resposta | `../AAS API/bundled/<Serviço>__V3.2_SSP-00N.yaml` | `grep -n "operationId: GetSubmodelElementByPath"`; ou carregar com `yaml.safe_load` e ler `paths` |
+| Quais perfis existem / quantas rotas | `../AAS API/README.md` | tabela de perfis |
+| Profiles (SSP) — texto normativo | `Part2_API.txt` | `grep -n "SSP-00"` |
 | Query language | `Part2_API.txt` | a partir de `^Grammar` / `^Query Filter` |
 | IEC 61360 / ConceptDescription | `Part3a_DataSpec_IEC61360.txt` | `AASc-3a-`, `preferredName`, `levelType` |
 | Unidades de medida | `Part3b_DataSpec_UoM.txt` | `DataSpecificationPhysicalUnit`, `UNECE` |
@@ -27,6 +29,13 @@ Pasta: `docs/AAS Specifications/` (há espaço no nome, então use aspas no shel
 | Pacote AASX | `Part5_AASX.txt` | `aasx-origin`, `aas-suppl`, `^File Structure` |
 
 4. O PDF, só para figuras e diagramas UML. A numeração de páginas do `.txt` não corresponde à do PDF: localize pelo título com Read e `pages`.
+
+## Testes de contrato contra a OpenAPI oficial
+Use os YAMLs autocontidos de `docs/AAS API/bundled/`, um por perfil, como oráculo:
+- **Por teste:** valide cada resposta com `openapi-core` (ou `jsonschema` sobre `components/schemas`), usando o `operationId` da rota.
+- **Gerados:** rode `schemathesis run "docs/AAS API/bundled/SubmodelRepositoryServiceSpecification__V3.2_SSP-002.yaml" --base-url <url>`.
+- O schema garante forma, status e campos, mas **não** semântica (valor correto, ordem da paginação, decodificação base64url). Os testes de comportamento continuam necessários.
+- Os nomes de perfil no texto da Parte 2 têm erros de cópia (Registry SSP-004 = Query; Discovery SSP-002 = Read). O YAML é o contrato.
 
 ## Ao checar conformidade do Faaster
 - Use `grep -rn "AASd-" faaster/faaster/aas_metamodel/` para ver o que está implementado e compare com as constraints ativas em `constraints.md`.

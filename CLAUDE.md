@@ -22,7 +22,7 @@ Chame o agente adequado para cada tarefa:
 
 - Skills: `aas-spec-lookup` (specs IDTA-01001…01005), `aas-submodel-templates` (templates IDTA-02xxx)
 - Subagents: `aas-spec-auditor` (conformidade v3.2), `aas-modeler` (modelos a partir de templates)
-- Dependem de `docs/AAS Specifications/` e `docs/AAS Submodel Templates/`, versionados neste repositório (CC BY 4.0, ver `docs/NOTICE.md`). Para atualizar: `scripts/setup-aas-docs.sh docs`
+- Dependem de `docs/AAS Specifications/`, `docs/AAS API/` (OpenAPI v3.2, perfis SSP) e `docs/AAS Submodel Templates/`, versionados neste repositório (CC BY 4.0, ver `docs/NOTICE.md`). Para atualizar: `scripts/setup-aas-docs.sh docs`
 
 ## Ativação por contexto
 

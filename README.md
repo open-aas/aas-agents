@@ -101,6 +101,7 @@ As skills, os subagents e o steering `aas-specifications`/`aas-submodel-template
 ```
 docs/
 ├── NOTICE.md                       ← atribuição e licença (CC BY 4.0, IDTA)
+├── AAS API/                        ← OpenAPI da Parte 2 v3.2 (aas-specs-api): source/ + bundled/ (1 YAML por perfil SSP)
 ├── AAS Specifications/             ← PDFs IDTA-01001…01005 + texto extraído (.txt),
 │                                     README.md (resumo por parte) e constraints.md
 └── AAS Submodel Templates/         ← 62 templates IDTA-02xxx
